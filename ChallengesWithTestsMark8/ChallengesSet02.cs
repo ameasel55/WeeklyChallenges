@@ -120,10 +120,16 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            for (long i = 1; i < number; i++)
+            
+           if (number <= 0)
             {
-                if (i % 2 != 0)
+                return 0;
             }
+           else
+            {
+                return number / 2;
+            }
+            
                 
         }
     }
