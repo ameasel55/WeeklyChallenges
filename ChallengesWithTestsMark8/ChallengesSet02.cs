@@ -102,6 +102,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOdd(List<int> numbers)
         {
+            
             int sum = 0;
             foreach (var num in numbers)
             {

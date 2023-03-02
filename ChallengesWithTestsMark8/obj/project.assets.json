@@ -8,7 +8,8 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/pammeasel/.nuget/packages/": {}
+    "/Users/pammeasel/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -19,6 +20,9 @@
       "packagesPath": "/Users/pammeasel/.nuget/packages/",
       "outputPath": "/Users/pammeasel/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/pammeasel/.nuget/NuGet/NuGet.Config"
       ],
